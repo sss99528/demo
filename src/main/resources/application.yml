@@ -1,0 +1,21 @@
+spring:
+  profiles:
+    active: dev
+server:
+  tomcat:
+    accesslog:
+      prefix: access_log
+      suffix: .log
+      file-date-format: .yyyy-mm-dd
+      enabled: true #开启访问日志
+      directory: logs
+      pattern: common
+    basedir: ~\IdeaProjects\demo
+logging:
+  charset:
+    file: utf-8
+  pattern:
+    console: "%d - %msg%n"
+    path: ./demo.log
+  level: debug
+

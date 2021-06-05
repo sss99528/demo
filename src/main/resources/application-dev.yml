@@ -1,0 +1,15 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: sss99528
+    url: jdbc:mysql://cdb-9yshkc4m.cd.tencentcdb.com:10074/demo
+#  redis:
+#    client-name: hhsw-redis
+#    url: localhost
+#    database: 0
+#    port: 6379
+#    password: sss99528
+#
